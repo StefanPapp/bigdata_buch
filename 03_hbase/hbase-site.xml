@@ -1,0 +1,14 @@
+<configuration>
+<property>
+   <name>hbase.rootdir</name>
+   <value>file:///usr/local/hbase/data</value>
+</property>
+<property>
+   <name>hbase.zookeeper.property.dataDir</name>
+   <value>/tmp/zookeeper</value>
+</property>
+<property>
+   <name>zookeeper.znode.parent</name>
+   <value>/hbase</value>
+</property>
+</configuration>

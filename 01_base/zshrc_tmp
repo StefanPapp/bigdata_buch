@@ -1,0 +1,15 @@
+export ZSH=~/.oh-my-zsh
+ZSH_THEME="sobole"
+ENABLE_CORRECTION="true"
+COMPLETION_WAITING_DOTS="true"
+HIST_STAMPS="dd.mm.yyyy"
+plugins=(git z docker)
+
+source $ZSH/oh-my-zsh.sh
+source /root/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias zshconfig="vim ~/.zshrc"
+
+#VARS
+export EDITOR='vim'
+export PATH=$PATH:/usr/lib/jvm/jdk/bin
+export JAVA_HOME=/usr/lib/jvm/jdk/
