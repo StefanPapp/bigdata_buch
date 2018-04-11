@@ -6,4 +6,5 @@ wget http://www-us.apache.org/dist/spark/spark-2.2.0/spark-2.2.0-bin-hadoop2.7.t
 tar -xvf spark-2.2.0-bin-hadoop2.7.tgz
 mv spark-2.2.0-bin-hadoop2.7 spark
 
-echo "export PATH=$PATH:/usr/local/spark/bin" >> ~/.zshrc
+echo "" >> ~/.zshrc
+echo "export PATH=\$PATH:/usr/local/spark/bin" >> ~/.zshrc
