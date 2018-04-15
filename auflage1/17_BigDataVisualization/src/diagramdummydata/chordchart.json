@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Uruguay",
+		"color": "#E41A1C"
+	},
+	{
+		"name": "Italien",
+		"color": "#FFFF33"
+	},
+	{
+		"name": "Frankreich",
+		"color": "#FF7F00"
+	},
+	{
+		"name": "Brasilien",
+		"color": "#FF7F00"
+	},
+	{
+		"name": "Schweiz",
+		"color": "#FF7F00"
+	},
+	{
+		"name": "Schweden",
+		"color": "#FF7F00"
+	},
+	{
+		"name": "Chile",
+		"color": "#FF7F00"
+	},
+	{
+		"name": "England",
+		"color": "#FF7F00"
+	},
+	{
+		"name": "Mexiko",
+		"color": "#999999"
+	},
+	{
+		"name": "Deutschland",
+		"color": "#984EA3"
+	},
+	{
+		"name": "Argentinien",
+		"color": "#984EA3"
+	},
+	{
+		"name": "Spanien",
+		"color": "#984EA3"
+	},
+	{
+		"name": "USA",
+		"color": "#984EA3"
+	},
+	{
+		"name": "Südkorea und Japan",
+		"color": "#984EA3"
+	},
+	{
+		"name": "Südafrika",
+		"color": "#984EA3"
+	}
+]

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name>09_HadoopManager</display-name>
+	<welcome-file-list>
+		<welcome-file>hdfs.jsp</welcome-file>
+	</welcome-file-list>
+	 <servlet>
+    <description>Ein Servlet zum Herunterladen von Dateien</description>
+    <display-name>DownloadServlet</display-name>
+    <servlet-name>downloadServlet</servlet-name>
+    <servlet-class>de.jofre.servlets.HDFSDownloadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>downloadServlet</servlet-name>
+    <url-pattern>/download</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UploadServlet</display-name>
+    <servlet-name>uploadServlet</servlet-name>
+    <servlet-class>de.jofre.servlets.HDFSUploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>uploadServlet</servlet-name>
+    <url-pattern>/upload</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,49 @@
+{
+ "name": "Instrumente",
+ "children": [
+  {
+   "name": "Blasinstrumente",
+   "children": [
+    {
+     "name": "Blasinstrumente 1",
+     "children": [
+      {"name": "Tuba"},
+      {"name": "Posaune"},
+      {"name": "Oboe"},
+      {"name": "Trompete"}
+     ]
+    },
+    {
+     "name": "Blasinstrumente 2",
+     "children": [
+      {"name": "Saxophon"},
+      {"name": "Klarinette"},
+      {"name": "Fluegelhorn"},
+      {"name": "Horn"}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gesang",
+   "children": [
+    {"name": "Gesang"},
+    {"name": "Operngesang"},
+    {
+     "name": "Streichinstrumente",
+     "children": [
+      {"name": "Geige"},
+      {"name": "Chello"},
+      {"name": "Kontrabass"},
+      {"name": "Violine"},
+      {"name": "Bratsche"},
+      {"name": "Violoncello"},
+      {"name": "Viola"}
+     ]
+    }
+   ]
+  },
+  {"name": "Klavier"},
+  {"name": "Gitarre"}
+ ]
+}
